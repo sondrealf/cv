@@ -1,0 +1,2 @@
+(self.webpackChunkmy_cv=self.webpackChunkmy_cv||[]).push([[394],{8585:function(){var e=document.getElementById("smallWeather"),n=document.getElementById("bigWeather");e.style.display="none",console.log(window.innerWidth),console.log(document.documentElement.clientWidth),document.documentElement.clientWidth>=860?(console.log("over"),e.style.display="none",n.style.display="initial"):(console.log("under"),n.style.display="none",e.style.display="initial")}}]);
+//# sourceMappingURL=component---src-pages-project-js-weather-js-1b5c04f7fddc83e9b8dd.js.map
