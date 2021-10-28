@@ -1,2 +1,0 @@
-(self.webpackChunkmy_cv=self.webpackChunkmy_cv||[]).push([[521],{7043:function(){var e=document.getElementById("navBar");e.innerHTML="  <a href='homepage.html'>Hjem</a><a href='gallery.html'>Bilder</a><a href='weather.html'>Været</a><a href='events.html'>Arrangement</a><a href='reservations.html'>Reservasjoner</a><a href='about.html'>Om oss</a><a href='javascript:void(0);' style='font-size:15px;' class='icon' onclick='responsive()'>&#9776;</a>",e.className="topnav"}}]);
-//# sourceMappingURL=component---src-pages-project-js-nav-bar-js-b5c433fc3bc1ffe2bb22.js.map

@@ -1,2 +1,0 @@
-(self.webpackChunkmy_cv=self.webpackChunkmy_cv||[]).push([[888],{73:function(){var e=["homeBody1","homeBody2","homeBody3","homeBody4"],o=1;window.setInterval((function(){document.getElementById("homeBody").className=e[o],o=(o+1)%e.length}),4e3)}}]);
-//# sourceMappingURL=component---src-pages-project-js-random-bg-js-c6dc1859eb8efab7dfb1.js.map
