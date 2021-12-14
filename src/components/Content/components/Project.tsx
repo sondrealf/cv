@@ -22,7 +22,9 @@ const Project = ({
     }
   `)
   const files = data.allFile.edges.map(node => node.node)
-  let imagesrc = files.filter(file => file.name == image.src)
+  let imagesrc = files.filter(file => file.name == image.src)[0]["publicURL"]
+  console.log(imagesrc)
+
   return (
     <div className="flex bg-gray-100 rounded-lg p-2">
       <img src={imagesrc} alt={image.alt} className=" w-1/3 print:hidden" />

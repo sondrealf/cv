@@ -6,8 +6,8 @@ const Langselector = () => {
   const [lang, setLang] = useState<"en" | "no">("no")
   const { dispatch } = useInfo()
   return (
-    <div className="flex sm:justify-between items-center p-1 w-full max-w-6xl">
-      <span>
+    <div className="flex justify-end sm:justify-between items-center p-1 w-full max-w-6xl">
+      <span className="hidden sm:block">
         {lang == "en"
           ? "Printing? See the bottom of the page"
           : "Printe? Se nederst på siden"}

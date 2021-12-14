@@ -1,45 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg id="master-artboard" viewBox="0 0 1400 980" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1400px" height="980px"><defs><style id="ee-google-fonts">@import url(https://fonts.googleapis.com/css?family=Rubik:300,300italic,400,400italic,500,500italic,700,700italic,900,900italic);</style></defs><rect id="ee-background" x="0" y="0" width="1400" height="980" style="fill: white; fill-opacity: 1; pointer-events: none;"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<svg id="master-artboard" viewBox="0 0 1400 980" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" style="enable-background:new 0 0 1400 980;" width="1400px" height="980px"><defs><style id="ee-google-fonts">@import url(https://fonts.googleapis.com/css?family=Rubik:300,300italic,400,400italic,500,500italic,700,700italic,900,900italic);</style></defs><rect id="ee-background" x="0" y="0" width="1400" height="980" style="fill: white; fill-opacity:0; pointer-events: none;"/>
 <g transform="matrix(1.8091504573822021, 0, 0, 1.8091504573822021, -495.14005421016043, 316.670928955078)"><g id="g-1" transform="matrix(1, 0, 0, 1, 0, 0)">
 	<g id="g-2">
 		<path class="st0" d="M652,46c27.6,0,50,22.4,50,50s-22.4,50-50,50s-50-22.4-50-50S624.4,46,652,46z" style="fill: rgb(51, 51, 51);"/>

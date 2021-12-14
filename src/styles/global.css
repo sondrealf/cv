@@ -8,3 +8,9 @@ body,
 #gatsby-focus-wrapper {
   height: 100%;
 }
+
+@media print {
+  @page {
+    size: 1240px 1754px;
+  }
+}
