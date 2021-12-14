@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "johan-cv",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "My cv as a website",
+  "version": "2.0.0",
+  "author": "Johan August Østbye <johan.august@outlook.com",
   "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.3.0",
     "gatsby-plugin-gatsby-cloud": "^4.3.0",
     "gatsby-plugin-image": "^2.3.0",
@@ -17,7 +18,10 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-flagkit": "^2.0.4",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-to-print": "^2.14.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
