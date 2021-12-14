@@ -3,7 +3,7 @@ module.exports = {
     title: `CV - Johan A. Østbye`,
     description: `The CV belonging to Johan August Østbye`,
     author: `@JohanAOstbye`,
-    siteUrl: `nørd`,
+    siteUrl: `https://cv.jostbye.dev/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
