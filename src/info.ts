@@ -191,7 +191,7 @@ const info: { en: langInfo; no: langInfo } = {
       projects: [
         {
           image: {
-            src: "../../../images/projects/onlinelogo.svg",
+            src: "onlinelogo",
             alt: "Online logo",
           },
           website: {
@@ -204,7 +204,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/taco.svg",
+            src: "taco",
             alt: "Taco picture",
           },
           website: {
@@ -217,7 +217,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/me.svg",
+            src: "me",
             alt: "Me",
           },
           website: {
@@ -230,7 +230,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/more.svg",
+            src: "more",
             alt: "More picture",
           },
           title: "More projects",
@@ -396,7 +396,7 @@ const info: { en: langInfo; no: langInfo } = {
       projects: [
         {
           image: {
-            src: "../../../images/projects/onlinelogo.svg",
+            src: "onlinelogo",
             alt: "Online logo",
           },
           website: {
@@ -409,7 +409,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/taco.svg",
+            src: "taco",
             alt: "Taco picture",
           },
           website: {
@@ -422,7 +422,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/me.svg",
+            src: "me",
             alt: "Me",
           },
           website: {
@@ -435,7 +435,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           image: {
-            src: "../../../images/projects/more.svg",
+            src: "more",
             alt: "...",
           },
           title: "Flere prosjekter",

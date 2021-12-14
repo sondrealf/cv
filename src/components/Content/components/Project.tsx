@@ -1,3 +1,4 @@
+import { graphql, useStaticQuery } from "gatsby"
 import React from "react"
 import { project } from "../../../../lib/types"
 
@@ -8,9 +9,23 @@ const Project = ({
   website = undefined,
   text,
 }: project) => {
+  const data = useStaticQuery(graphql`
+    {
+      allFile(filter: { extension: { eq: "svg" } }) {
+        edges {
+          node {
+            publicURL
+            name
+          }
+        }
+      }
+    }
+  `)
+  const files = data.allFile.edges.map(node => node.node)
+  let imagesrc = files.filter(file => file.name == image.src)
   return (
     <div className="flex bg-gray-100 rounded-lg p-2">
-      <img src={image.src} alt={image.alt} className=" w-1/3 print:hidden" />
+      <img src={imagesrc} alt={image.alt} className=" w-1/3 print:hidden" />
       <div className="w-2/3 ml-2 print:w-full">
         <h1 className="text-lg print:text-base">{title}</h1>
         <div className="flex flex-row">
