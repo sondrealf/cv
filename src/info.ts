@@ -3,7 +3,6 @@ import {
   MdOutlineVolunteerActivism,
   MdWorkOutline,
 } from "react-icons/md"
-import { FaTerminal } from "react-icons/fa"
 import {
   SiAmazonaws,
   SiAsciidoctor,
@@ -14,21 +13,14 @@ import {
   SiFirebase,
   SiGatsby,
   SiGit,
-  SiGraphql,
   SiHtml5,
   SiJava,
-  SiKubuntu,
-  SiLinux,
-  SiMongodb,
   SiMysql,
   SiNextdotjs,
-  SiNodedotjs,
-  SiPostgresql,
   SiPython,
   SiReact,
-  SiTailwindcss,
-  SiTerraform,
   SiTypescript,
+  SiVercel,
   SiVisualstudiocode,
 } from "react-icons/si"
 import { langInfo } from "../lib/types"
@@ -37,38 +29,38 @@ const info: { en: langInfo; no: langInfo } = {
   en: {
     lang: "en",
     profile: {
-      name: "Johan August Østbye",
+      name: "Sondre Alfnes",
       role: "Developer",
     },
     info: {
       about: {
         title: "Profile",
-        text: "I am a 23 year old student from Nesodden. I am now in the 4th year of the NTNU master's in Informatics with a focus on databases and search. I am a very social person and like to collaborate on projects.",
+        text: "I am a 20 year old student from Nittedal. I am now in the 1th year of the NTNU bachelor in Informatics. I am a very social person and like to collaborate on projects.",
       },
       contact: {
         title: "Details",
-        adress: ["Nyborgbakken 8", "1458, Fjellstrand"],
-        phone: "+47 913 01 594",
+        adress: ["Eirik Jarls gate 2", "7030, Trondheim"],
+        phone: "+47 454 54 820",
         links: [
           {
             Icon: MdMailOutline,
-            link: "mailto:johan.august@outlook.com",
-            text: "Johan.August@outlook.com",
+            link: "mailto:sondre.alfnes@gmail.com",
+            text: "sondre.alfnes@gmail.com",
           },
           {
             Icon: BsLinkedin,
-            link: "https://www.linkedin.com/in/johan-august-%C3%B8stbye-6b0669192/",
-            text: "Johan August Østbye",
+            link: "https://www.linkedin.com/in/sondre-alfnes-2243331b3/",
+            text: "Sondre Alfnes",
           },
           {
             Icon: BsGithub,
-            link: "https://github.com/JohanAOstbye",
-            text: "JohanAOstbye",
+            link: "https://github.com/sondrealf",
+            text: "Sondrealf",
           },
           {
             Icon: BsGlobe,
-            link: "https://johanaostbye.github.io",
-            text: "johanaostbye.github.io",
+            link: "",
+            text: "URL hjemmeside",
           },
         ],
       },
@@ -77,16 +69,17 @@ const info: { en: langInfo; no: langInfo } = {
           title: "Frontend",
           techs: [
             SiCss3,
-            SiExpo,
             SiGatsby,
             SiHtml5,
             SiJava,
             SiNextdotjs,
             SiReact,
-            SiTailwindcss,
+            //SiTailwindcss,
             SiTypescript,
+            SiVercel,
           ],
         },
+        /*
         {
           title: "Backend / UI less",
           techs: [SiGraphql, SiJava, SiNodedotjs, SiPython],
@@ -95,39 +88,39 @@ const info: { en: langInfo; no: langInfo } = {
           title: "Database",
           techs: [SiFirebase, SiMongodb, SiMysql, SiPostgresql],
         },
+        */
         {
           title: "Development eviroment",
-          techs: [SiGit, SiKubuntu, SiLinux, FaTerminal, SiVisualstudiocode],
+          techs: [SiGit, SiVisualstudiocode],
         },
         {
           title: "Other",
-          techs: [SiAmazonaws, SiAsciidoctor, SiDocker, SiFigma, SiTerraform],
+          techs: [SiFigma],
         },
       ],
     },
     content: {
       education: [
         {
-          title: "Master of Science in Informatics",
-          location: "Norwegian University of Science and Technology",
-          positions: [
-            {
-              timerange: "August 2021 - Current",
-              description:
-                "Databases and Search - Master's degree programme, 2 years, Trondheim",
-            },
-          ],
-        },
-        {
           title: "Bachelor in Information technology",
           location: "Norwegian University of Science and Technology",
           positions: [
             {
-              timerange: "August 2017 - June 2021",
-              description: "Bachelor's degree programme, 2 years, Trondheim",
+              timerange: "August 2021 - Current",
+              description: "Bachelor's degree programme, 3 years, Trondheim",
             },
           ],
         },
+        {
+          title: "General Studies with Stem field subjects",
+          location: "Bjertnes vgs - Highschool",
+          positions: [
+            {
+              timerange: "August 2019 - June 2021",
+              description: "3 years, Nittedal",
+            },
+          ],
+        }
       ],
       experience: [
         {
@@ -135,31 +128,20 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdWorkOutline,
           locations: [
             {
-              title: "Superinstruktørene AS",
-              location: "Nesodden",
+              title: "PostNord Stralfors AB",
+              location: "Oslo",
               positions: [
                 {
-                  timerange: "June 2021 - August 2021",
-                  description: "Head instructor",
-                  text: "Assembled the academic part of a course for primary school students together with academically responsible manager from Superinstruktørene",
-                },
-              ],
-            },
-            {
-              title: "Spisskammerset AS",
-              location: "Nesodden, Fagerstrand",
-              positions: [
-                {
-                  timerange: "2016 - 2020",
-                  description: "Delivery driver, waiter, helping chef",
-                  text: "Derlivered catering food and equipment i Oslo and Viken. If needed i stepped in as waiter or helping chef. On a daily basis i was the contactpoint for the customers.",
+                  timerange: "Desember 2020 - August 2021",
+                  description: "Machine operator",
+                  text: "I was a machine operator at PostNord Stralfors AB. During which, I maintenaned and was responsible for repair of the enveloping machine.",
                 },
               ],
             },
           ],
         },
         {
-          title: "Voluntary Work Experience",
+          title: "Voluntary Work and other Experiences",
           Icon: MdOutlineVolunteerActivism,
           locations: [
             {
@@ -167,22 +149,10 @@ const info: { en: langInfo; no: langInfo } = {
               location: "NTNU",
               positions: [
                 {
-                  timerange: "March 2019 - March 2020",
-                  description: "Deputy head - Academic courses committee",
-                  text: "Accompany and assist the leader in sustaining the committees purpose: Activly work to stimulate the students' academic interests and offer academic-related courses.",
-                },
-                {
-                  timerange: "March 2020 - November 2021",
-                  description:
-                    "Representative from Academic courses committee - Banking and finance committee",
-                  text: "Assist the committee in keeping track of the available funds and plan future spending to be able to adapt according to the students' needs",
-                },
-                {
-                  timerange: "November 2021 - Current",
-                  description:
-                    "Project leader - Digitization of Banking and finance committee",
-                  text: "Project leader and owner of the project that is supposed to digitalize all the necessary parts of the Banking and finance committee",
-                },
+                  timerange: "September 2021 - Current",
+                  description: "Member - Operation and Development committee (Dotkom)",
+                  text: "I am responsible for the development and maintenance of the website (online.ntnu.no).",
+                }
               ],
             },
           ],
@@ -194,38 +164,22 @@ const info: { en: langInfo; no: langInfo } = {
             src: "onlinelogo",
             alt: "Online logo",
           },
-          website: {
-            link: "https://faktura.online.ntnu.no/",
-            text: "webpage",
-          },
-          title: "Invoice info",
-          githubLink: "https://github.com/JohanAOstbye/invoiceinfo",
-          text: "A website for collecting invoice information from companies that the Student organization, Online collaborates with",
+          title: "Online Student Organization Website",
+          githubLink: "https://github.com/dotkom/galactic-thunderdome-x",
+          text: "A website project for the new online.ntnu.no page.",
         },
-        {
-          image: {
-            src: "taco",
-            alt: "Taco picture",
-          },
-          website: {
-            link: "https://tacomanager.vercel.app/",
-            text: "webpage",
-          },
-          title: "Tacomanager",
-          githubLink: "https://github.com/JohanAOstbye/tacomanager",
-          text: "A website to keep track of who will be attending tacofridays in the house",
-        },
+      
         {
           image: {
             src: "me",
             alt: "Me",
           },
           website: {
-            link: "https://johanaostbye.github.io/me/",
+            link: "",
             text: "webpage",
           },
           title: "My website",
-          githubLink: "https://github.com/JohanAOstbye/tacomanager",
+          githubLink: "",
           text: "A website about me as a person and what I do",
         },
         {
@@ -234,8 +188,8 @@ const info: { en: langInfo; no: langInfo } = {
             alt: "More picture",
           },
           title: "More projects",
-          githubLink: "https://github.com/JohanAOstbye",
-          text: "The rest of my projects such as this CV are on my github profile",
+          githubLink: "https://github.com/sondrealf",
+          text: "My github profile",
         },
       ],
     },
@@ -243,38 +197,38 @@ const info: { en: langInfo; no: langInfo } = {
   no: {
     lang: "no",
     profile: {
-      name: "Johan August Østbye",
+      name: "Sondre Alfnes",
       role: "Utvikler",
     },
     info: {
       about: {
         title: "Profil",
-        text: "Jeg er en 23 år gammel student fra Nesodden. Jeg går nå 4. året på NTNU master i Informatikk med retning databaser og søk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
+        text: "Jeg er en 20 år gammel student fra Nittedal. Jeg går nå 1. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
       },
       contact: {
         title: "Detaljer",
-        adress: ["Nyborgbakken 8", "1458, Fjellstrand"],
-        phone: "+47 913 01 594",
+        adress: ["Eirik Jarls gate 2", "7030, Trondheim"],
+        phone: "+47 454 54 820",
         links: [
           {
             Icon: MdMailOutline,
-            link: "mailto:johan.august@outlook.com",
-            text: "Johan.August@outlook.com",
+            link: "mailto:sondre.alfnes@gmail.com",
+            text: "sondre.alfnes@gmail.com",
           },
           {
             Icon: BsLinkedin,
-            link: "https://www.linkedin.com/in/johan-august-%C3%B8stbye-6b0669192/",
-            text: "Johan August Østbye",
+            link: "https://www.linkedin.com/in/sondre-alfnes-2243331b3/",
+            text: "Sondre Alfnes",
           },
           {
             Icon: BsGithub,
-            link: "https://github.com/JohanAOstbye",
-            text: "JohanAOstbye",
+            link: "https://github.com/sondrealf",
+            text: "Sondrealf",
           },
           {
             Icon: BsGlobe,
-            link: "https://johanaostbye.github.io",
-            text: "johanaostbye.github.io",
+            link: "",
+            text: "URL hjemmeside",
           },
         ],
       },
@@ -283,56 +237,58 @@ const info: { en: langInfo; no: langInfo } = {
           title: "Frontend",
           techs: [
             SiCss3,
-            SiExpo,
             SiGatsby,
             SiHtml5,
             SiJava,
             SiNextdotjs,
             SiReact,
-            SiTailwindcss,
+            //SiTailwindcss,
             SiTypescript,
+            SiVercel,
           ],
         },
+        /*
         {
-          title: "Backend / Uten UI",
+          title: "Backend / UI less",
           techs: [SiGraphql, SiJava, SiNodedotjs, SiPython],
         },
         {
-          title: "Databaser",
+          title: "Database",
           techs: [SiFirebase, SiMongodb, SiMysql, SiPostgresql],
         },
+        */
         {
           title: "Development eviroment",
-          techs: [SiGit, SiKubuntu, SiLinux, FaTerminal, SiVisualstudiocode],
+          techs: [SiGit, SiVisualstudiocode],
         },
         {
-          title: "Andre",
-          techs: [SiAmazonaws, SiAsciidoctor, SiDocker, SiFigma, SiTerraform],
+          title: "Other",
+          techs: [SiFigma],
         },
       ],
     },
     content: {
       education: [
         {
-          title: "Master i Informatikk",
-          location: "Norges teknisk-naturvitenskapelige universitet",
-          positions: [
-            {
-              timerange: "August 2021 - Nå",
-              description: "Databaser og søk - Masterprogram 2-årig, Trondheim",
-            },
-          ],
-        },
-        {
           title: "Bachelor i Informatikk",
           location: "Norges teknisk-naturvitenskapelige universitet",
           positions: [
             {
-              timerange: "August 2017 - Juni 2021",
+              timerange: "August 2020 - Nå",
               description: "Bachelorprogram, 3-årig, Trondheim",
             },
           ],
         },
+        {
+          title: "Studiespessialisering med realfag",
+          location: "Bjertnes vgs - Videregående skole",
+          positions: [
+            {
+              timerange: "August 2019 - Juni 2021",
+              description: "3 år, Nittedal",
+            },
+          ],
+        }
       ],
       experience: [
         {
@@ -340,24 +296,13 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdWorkOutline,
           locations: [
             {
-              title: "Superinstruktørene AS",
-              location: "Nesodden",
+              title: "PostNord Stralfors AB",
+              location: "Oslo",
               positions: [
                 {
-                  timerange: "Juni 2021 - August 2021",
-                  description: "Hovedinstruktør",
-                  text: "Satt sammen den faglige delen av et kurs for grunnskoleelever sammen med faglig ansvarlig leder fra Superinstruktørene",
-                },
-              ],
-            },
-            {
-              title: "Spisskammerset AS",
-              location: "Nesodden, Fagerstrand",
-              positions: [
-                {
-                  timerange: "2016 - 2020",
-                  description: "Sjåfør, servitør, hjelpekokk",
-                  text: "Levert serveringsmat og utstyr i Oslo og Viken. Om nødvendig hjalp jeg til som servitør eller hjelpekokk. Til daglig var jeg kontaktpunkt for kundene.",
+                  timerange: "Desember 2020 - August 2021",
+                  description: "Machineopperatør",
+                  text: "Jeg var en maskinopperatør på PostNord Stralfors AB. Jobben min var å vedlikeholde og fikse konfluteringsmaskiner.",
                 },
               ],
             },
@@ -368,26 +313,14 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdOutlineVolunteerActivism,
           locations: [
             {
-              title: "Online Linjeforening",
+              title: "Student organization, Online",
               location: "NTNU",
               positions: [
                 {
-                  timerange: "Mars 2019 - Mars 2020",
-                  description: "Nestleder - Fag- og kurskomiteen",
-                  text: "Bitså lederen med å opprettholde komiteens formål: Aktivt arbeide for å stimulere studentenes faglige interesser og tilby faglig relaterte kurs",
-                },
-                {
-                  timerange: "Mars 2020 - November 2021",
-                  description:
-                    "Økonomiansvarlig, Fag- og kurskomiteen - Bank- og økonomikomiteen",
-                  text: "Bistå komiteen med å holde oversikt over tilgjengelige midler og planlegge fremtidige utgifter for å kunne tilpasse seg studentenes behov",
-                },
-                {
-                  timerange: "November 2021 - Nå",
-                  description:
-                    "Prosjektleder - Digitalisering av Bank- og økonomikomiteen",
-                  text: "Prosjektleder og eier av prosjektet som skal digitalisere alle nødvendige deler av Bank- og økonomikomiteen",
-                },
+                  timerange: "September 2021 - Current",
+                  description: "Member - Operation and Development committee (Dotkom)",
+                  text: "Jeg er ansvarlig for utvikling og vedlikehold av nettsiden (online.ntnu.no).",
+                }
               ],
             },
           ],
@@ -399,48 +332,32 @@ const info: { en: langInfo; no: langInfo } = {
             src: "onlinelogo",
             alt: "Online logo",
           },
-          website: {
-            link: "https://faktura.online.ntnu.no/",
-            text: "nettside",
-          },
-          title: "Invoice info",
-          githubLink: "https://github.com/JohanAOstbye/invoiceinfo",
-          text: "En nettside for å hente inn fakturainformasjon fra bedrifter som Online Linjeforening sammarbeider med",
+          title: "Online Student Organization Website",
+          githubLink: "https://github.com/dotkom/galactic-thunderdome-x",
+          text: "Et nettside prosjekt for den nye online.ntnu.no siden.",
         },
-        {
-          image: {
-            src: "taco",
-            alt: "Taco picture",
-          },
-          website: {
-            link: "https://tacomanager.vercel.app/",
-            text: "nettside",
-          },
-          title: "Tacomanager",
-          githubLink: "https://github.com/JohanAOstbye/tacomanager",
-          text: "En nettside for å holde styr på hvem som skal være med på tacokveld i kollektivet",
-        },
+      
         {
           image: {
             src: "me",
             alt: "Me",
           },
           website: {
-            link: "https://johanaostbye.github.io/me/",
-            text: "nettside",
+            link: "",
+            text: "webpage",
           },
-          title: "Min portofolio",
-          githubLink: "https://github.com/JohanAOstbye/tacomanager",
-          text: "En nettside om meg som person og hva jeg gjør",
+          title: "My website",
+          githubLink: "",
+          text: "En nettside om meg som en person og hva jeg gjør",
         },
         {
           image: {
             src: "more",
-            alt: "...",
+            alt: "More picture",
           },
-          title: "Flere prosjekter",
-          githubLink: "https://github.com/JohanAOstbye",
-          text: "Resten av prosjektene som for eksempel denne cv'en ligger på min github profil",
+          title: "More projects",
+          githubLink: "https://github.com/sondrealf",
+          text: "Min guthub profil",
         },
       ],
     },

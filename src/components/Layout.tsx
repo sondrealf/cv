@@ -14,7 +14,7 @@ const Layout = ({ children, className }) => {
         edges {
           node {
             publicURL
-            name
+            name 
           }
         }
       }
@@ -49,7 +49,6 @@ const Layout = ({ children, className }) => {
             Download CV
           </a>
         </div>
-        <p>{new Date().getFullYear()}, Built by Juan:)</p>
       </footer>
     </div>
   )
