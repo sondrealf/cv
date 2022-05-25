@@ -1,4 +1,3 @@
-import { string } from "prop-types"
 import { IconType } from "react-icons/lib"
 
 export type position = {

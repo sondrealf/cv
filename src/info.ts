@@ -2,6 +2,7 @@ import {
   MdMailOutline,
   MdOutlineVolunteerActivism,
   MdWorkOutline,
+  MdOutlinePeopleAlt,
 } from "react-icons/md"
 import {
   SiAmazonaws,
@@ -152,6 +153,23 @@ const info: { en: langInfo; no: langInfo } = {
                   timerange: "September 2021 - Current",
                   description: "Member - Operation and Development committee (Dotkom)",
                   text: "I am responsible for the development and maintenance of the website (online.ntnu.no).",
+                }
+              ],
+            },
+          ],
+        },
+        {
+          title: "References",
+          Icon: MdOutlinePeopleAlt,
+          locations: [
+            {
+              title: "",
+              location: "",
+              positions: [
+                {
+                  timerange: "",
+                  description: "liste|Thomas Snellingen (Shift manger for PostNord Stralfors AB) Tlf: +47 452 51 109",
+                  text: "",
                 }
               ],
             },
@@ -325,6 +343,23 @@ const info: { en: langInfo; no: langInfo } = {
             },
           ],
         },
+        {
+          title: "Refferanse",
+          Icon: MdOutlinePeopleAlt,
+          locations: [
+            {
+              title: "",
+              location: "",
+              positions: [
+                {
+                  timerange: "",
+                  description: "liste|Thomas Snellingen (Skiftleder til PostNord Stralfors AB) Tlf: +47 452 51 109",
+                  text: "",
+                }
+              ],
+            },
+          ],
+        },
       ],
       projects: [
         {
@@ -346,7 +381,7 @@ const info: { en: langInfo; no: langInfo } = {
             link: "",
             text: "webpage",
           },
-          title: "My website",
+          title: "Min nettside",
           githubLink: "",
           text: "En nettside om meg som en person og hva jeg gjør",
         },
@@ -355,7 +390,7 @@ const info: { en: langInfo; no: langInfo } = {
             src: "more",
             alt: "More picture",
           },
-          title: "More projects",
+          title: "Flere prosjekter",
           githubLink: "https://github.com/sondrealf",
           text: "Min guthub profil",
         },

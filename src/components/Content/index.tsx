@@ -9,7 +9,7 @@ const Content = ({ className }) => {
     <div className={className}>
       <Education />
       <Experience />
-      <Projects />
+      <Projects /> 
     </div>
   )
 }
