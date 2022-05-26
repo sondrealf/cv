@@ -336,7 +336,7 @@ const info: { en: langInfo; no: langInfo } = {
               location: "NTNU",
               positions: [
                 {
-                  timerange: "September 2021 - Current",
+                  timerange: "September 2021 - Nå",
                   description: "Medlem - Drifts- og utviklingskomiteen (Dotkom)",
                   text: "Jeg er ansvarlig for utvikling og vedlikehold av nettsiden (online.ntnu.no).",
                 }
