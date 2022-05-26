@@ -332,12 +332,12 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdOutlineVolunteerActivism,
           locations: [
             {
-              title: "Student organization, Online",
+              title: "Online Linjeforening",
               location: "NTNU",
               positions: [
                 {
                   timerange: "September 2021 - Current",
-                  description: "Member - Operation and Development committee (Dotkom)",
+                  description: "Medlem - Drifts- og utviklingskomiteen (Dotkom)",
                   text: "Jeg er ansvarlig for utvikling og vedlikehold av nettsiden (online.ntnu.no).",
                 }
               ],
