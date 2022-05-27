@@ -1,6 +1,7 @@
 import React, { useRef } from "react"
 import PropTypes from "prop-types"
 import Langselector from "./Langselector"
+import Footer from "./Footer"
 
 const Layout = ({ children, className }) => {
   let cvRef = useRef<HTMLElement>(null)
@@ -13,6 +14,7 @@ const Layout = ({ children, className }) => {
           {children}
         </main>
       </div>
+      <Footer />
     </div>
   )
 }
