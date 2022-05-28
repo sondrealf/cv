@@ -61,7 +61,7 @@ const info: { en: langInfo; no: langInfo } = {
           },
           {
             Icon: BsGlobe,
-            link: "",
+            link: "https://www.alfnes.dev/",
             text: "URL hjemmeside",
           },
         ],
@@ -194,11 +194,11 @@ const info: { en: langInfo; no: langInfo } = {
             alt: "Me",
           },
           website: {
-            link: "",
+            link: "https://www.alfnes.dev/",
             text: "webpage",
           },
           title: "My website",
-          githubLink: "",
+          githubLink: "https://github.com/sondrealf/portfolio-side",
           text: "A website about me as a person and what I do",
         },
         {
@@ -246,7 +246,7 @@ const info: { en: langInfo; no: langInfo } = {
           },
           {
             Icon: BsGlobe,
-            link: "",
+            link: "https://www.alfnes.dev/",
             text: "URL hjemmeside",
           },
         ],
@@ -379,11 +379,11 @@ const info: { en: langInfo; no: langInfo } = {
             alt: "Me",
           },
           website: {
-            link: "",
+            link: "https://www.alfnes.dev/",
             text: "webpage",
           },
           title: "Min nettside",
-          githubLink: "",
+          githubLink: "https://github.com/sondrealf/portfolio-side",
           text: "En nettside om meg som en person og hva jeg gjør",
         },
         {
