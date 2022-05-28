@@ -2,7 +2,6 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image"
 import { useInfo } from "./info-context"
-import Image from "next/image"
 
 const Profile = ({ className }) => {
   const { state } = useInfo()
