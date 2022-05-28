@@ -1,9 +1,9 @@
 {
-  "name": "johan-cv",
+  "name": "sondre-cv",
   "private": true,
   "description": "My cv as a website",
-  "version": "2.0.0",
-  "author": "Johan August Østbye <johan.august@outlook.com",
+  "version": "1",
+  "author": "Sondre Alfnes <sondre.alfnes@gmail.com>",
   "dependencies": {
     "@react-icons/all-files": "^4.1.0",
     "gatsby": "^4.3.0",

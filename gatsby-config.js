@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `CV - Johan A. Østbye`,
-    description: `The CV belonging to Johan August Østbye`,
-    author: `@JohanAOstbye`,
-    siteUrl: `https://cv.jostbye.dev/`,
+    title: `CV - Sondre Alfnes`,
+    description: `The CV belonging to Sondre Alfnes.`,
+    author: `@sondrealf`,
+    siteUrl: `https://cvpage.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-postcss`,
