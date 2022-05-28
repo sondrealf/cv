@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticImage } from "gatsby-plugin-image"
 import { useInfo } from "./info-context"
+import Image from "next/image"
 
 const Profile = ({ className }) => {
   const { state } = useInfo()
@@ -9,8 +10,11 @@ const Profile = ({ className }) => {
     <div className={`${className} text-center p-5`}>
       <StaticImage
         src="../images/meg.jpeg"
-        alt="picture of me"
-        className="rounded-full h-64 w-64 print:h-44 print:w-44"
+        alt="Profile"
+        className="rounded-full"
+        width={250}
+        height={250}
+        placeholder="blurred"
       />
       <h1 className=" text-2xl print:text-xl">{state.profile.name}</h1>
       <p className=" text-lg print:text-base font-light">
