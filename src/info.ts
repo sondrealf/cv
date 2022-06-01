@@ -78,7 +78,6 @@ const info: { en: langInfo; no: langInfo } = {
             SiReact,
             SiTailwindcss,
             SiTypescript,
-            SiVercel,
           ],
         },
         /*
@@ -97,7 +96,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           title: "Other",
-          techs: [SiFigma],
+          techs: [SiFigma,SiVercel,],
         },
       ],
     },
@@ -210,6 +209,19 @@ const info: { en: langInfo; no: langInfo } = {
           githubLink: "https://github.com/sondrealf",
           text: "My github profile",
         },
+        {
+          image: {
+            src: "me",
+            alt: "Me",
+          },
+          website: {
+            link: "https://cv.alfnes.dev/",
+            text: "webpage",
+          },
+          title: "This website",
+          githubLink: "https://github.com/sondrealf/cv",
+          text: "Its this CV page",
+        },
       ],
     },
   },
@@ -263,7 +275,6 @@ const info: { en: langInfo; no: langInfo } = {
             SiReact,
             SiTailwindcss,
             SiTypescript,
-            SiVercel,
           ],
         },
         /*
@@ -282,7 +293,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           title: "Other",
-          techs: [SiFigma],
+          techs: [SiFigma, SiVercel],
         },
       ],
     },
@@ -320,7 +331,7 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "Desember 2020 - August 2021",
-                  description: "Machineopperatør",
+                  description: "Maskinoperatør",
                   text: "Jeg var en maskinopperatør på PostNord Stralfors AB. Jobben min var å vedlikeholde og fikse konfluteringsmaskiner.",
                 },
               ],
@@ -382,7 +393,7 @@ const info: { en: langInfo; no: langInfo } = {
             link: "https://www.alfnes.dev/",
             text: "webpage",
           },
-          title: "Min nettside",
+          title: "Min hjemmeside",
           githubLink: "https://github.com/sondrealf/portfolio-side",
           text: "En nettside om meg som en person og hva jeg gjør",
         },
@@ -394,6 +405,19 @@ const info: { en: langInfo; no: langInfo } = {
           title: "Flere prosjekter",
           githubLink: "https://github.com/sondrealf",
           text: "Min guthub profil",
+        },
+        {
+          image: {
+            src: "me",
+            alt: "Me",
+          },
+          website: {
+            link: "https://cv.alfnes.dev/",
+            text: "webpage",
+          },
+          title: "Denne siden",
+          githubLink: "https://github.com/sondrealf/cv",
+          text: "Denne CV nettsiden",
         },
       ],
     },
