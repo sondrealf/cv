@@ -3,6 +3,7 @@ import {
   MdOutlineVolunteerActivism,
   MdWorkOutline,
   MdOutlinePeopleAlt,
+  MdSportsBaseball
 } from "react-icons/md"
 import {
   SiAmazonaws,
@@ -353,6 +354,24 @@ const info: { en: langInfo; no: langInfo } = {
                 }
               ],
             },
+            
+          ],
+        },
+        {
+          title: "Hobby",
+          Icon: MdSportsBaseball,
+          locations: [
+            {
+              title: "Taekwondo Klubb",
+              location: "Nittedal",
+              positions: [
+                {
+                  timerange: "2010 - 2020",
+                  description: "1. Dan Svart belte",
+                  text: "Deltok aktivt i Taekwondo der jeg var med i styret og var hjelpeinstruktør",
+                }
+              ],
+            },
           ],
         },
         {
@@ -365,7 +384,7 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "",
-                  description: "liste|Thomas Snellingen (Skiftleder til PostNord Stralfors AB) Tlf: +47 452 51 109",
+                  description: "liste|Thomas Snellingen (Skiftleder til PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Styremedlem) Tlf: +47 928 43 919",
                   text: "",
                 }
               ],
