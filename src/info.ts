@@ -160,6 +160,23 @@ const info: { en: langInfo; no: langInfo } = {
           ],
         },
         {
+          title: "Hobby",
+          Icon: MdSportsBaseball,
+          locations: [
+            {
+              title: "Taekwondo Club",
+              location: "Nittedal",
+              positions: [
+                {
+                  timerange: "2010 - 2020",
+                  description: "1. Dan Black Belt",
+                  text: "Was an active member of the Taekwondo club where I was a member of the board and was an assistant instructor.",
+                }
+              ],
+            },
+          ],
+        },
+        {
           title: "References",
           Icon: MdOutlinePeopleAlt,
           locations: [
@@ -169,7 +186,7 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "",
-                  description: "liste|Thomas Snellingen (Shift manger for PostNord Stralfors AB) Tlf: +47 452 51 109",
+                  description: "liste|Thomas Snellingen (Shift manger for PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Board Member Instructor) Tlf: +47 928 43 919",
                   text: "",
                 }
               ],
