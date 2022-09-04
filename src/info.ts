@@ -3,7 +3,7 @@ import {
   MdOutlineVolunteerActivism,
   MdWorkOutline,
   MdOutlinePeopleAlt,
-  MdSportsBaseball
+  MdSportsBaseball,
 } from "react-icons/md"
 import {
   SiAmazonaws,
@@ -38,11 +38,11 @@ const info: { en: langInfo; no: langInfo } = {
     info: {
       about: {
         title: "Profile",
-        text: "I am a 20 year old student from Nittedal. I am now in the 1th year of the NTNU bachelor in Informatics. I am a very social person and like to collaborate on projects.",
+        text: "I am a student from Nittedal. I am now in the 2th year of the NTNU bachelor in Informatics. I am a very social person and like to collaborate on projects.",
       },
       contact: {
         title: "Details",
-        adress: ["Eirik Jarls gate 2", "7030, Trondheim"],
+        adress: ["Jonsvannsveien 30", "7050, Trondheim"],
         phone: "+47 454 54 820",
         links: [
           {
@@ -97,7 +97,7 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           title: "Other",
-          techs: [SiFigma,SiVercel,],
+          techs: [SiFigma, SiVercel],
         },
       ],
     },
@@ -122,7 +122,7 @@ const info: { en: langInfo; no: langInfo } = {
               description: "3 years, Nittedal",
             },
           ],
-        }
+        },
       ],
       experience: [
         {
@@ -152,9 +152,10 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "September 2021 - Current",
-                  description: "Member - Operation and Development committee (Dotkom)",
+                  description:
+                    "Member - Operation and Development committee (Dotkom)",
                   text: "I am responsible for the development and maintenance of the website (online.ntnu.no).",
-                }
+                },
               ],
             },
           ],
@@ -171,7 +172,7 @@ const info: { en: langInfo; no: langInfo } = {
                   timerange: "2010 - 2020",
                   description: "1. Dan Black Belt",
                   text: "Was an active member of the Taekwondo club where I was a member of the board and was an assistant instructor.",
-                }
+                },
               ],
             },
           ],
@@ -186,9 +187,10 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "",
-                  description: "liste|Thomas Snellingen (Shift manger for PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Board Member Instructor) Tlf: +47 928 43 919",
+                  description:
+                    "liste|Thomas Snellingen (Shift manger for PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Board Member Instructor) Tlf: +47 928 43 919",
                   text: "",
-                }
+                },
               ],
             },
           ],
@@ -204,7 +206,7 @@ const info: { en: langInfo; no: langInfo } = {
           githubLink: "https://github.com/dotkom/galactic-thunderdome-x",
           text: "A website project for the new online.ntnu.no page.",
         },
-      
+
         {
           image: {
             src: "me",
@@ -252,11 +254,11 @@ const info: { en: langInfo; no: langInfo } = {
     info: {
       about: {
         title: "Profil",
-        text: "Jeg er en 20 år gammel student fra Nittedal. Jeg går nå 1. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
+        text: "Jeg er en student fra Nittedal. Jeg går nå 2. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
       },
       contact: {
         title: "Detaljer",
-        adress: ["Eirik Jarls gate 2", "7030, Trondheim"],
+        adress: ["Jonsvannsveien 30", "7050, Trondheim"],
         phone: "+47 454 54 820",
         links: [
           {
@@ -336,7 +338,7 @@ const info: { en: langInfo; no: langInfo } = {
               description: "3 år, Nittedal",
             },
           ],
-        }
+        },
       ],
       experience: [
         {
@@ -366,12 +368,12 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "September 2021 - Nå",
-                  description: "Medlem - Drifts- og utviklingskomiteen (Dotkom)",
+                  description:
+                    "Medlem - Drifts- og utviklingskomiteen (Dotkom)",
                   text: "Jeg er ansvarlig for utvikling og vedlikehold av nettsiden (online.ntnu.no).",
-                }
+                },
               ],
             },
-            
           ],
         },
         {
@@ -386,7 +388,7 @@ const info: { en: langInfo; no: langInfo } = {
                   timerange: "2010 - 2020",
                   description: "1. Dan Svart belte",
                   text: "Deltok aktivt i Taekwondo der jeg var med i styret og var hjelpeinstruktør",
-                }
+                },
               ],
             },
           ],
@@ -401,9 +403,10 @@ const info: { en: langInfo; no: langInfo } = {
               positions: [
                 {
                   timerange: "",
-                  description: "liste|Thomas Snellingen (Skiftleder til PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Styremedlem) Tlf: +47 928 43 919",
+                  description:
+                    "liste|Thomas Snellingen (Skiftleder til PostNord Stralfors AB) Tlf: +47 452 51 109 | Henry Hopkinson (Taekwondo Styremedlem) Tlf: +47 928 43 919",
                   text: "",
-                }
+                },
               ],
             },
           ],
@@ -419,7 +422,7 @@ const info: { en: langInfo; no: langInfo } = {
           githubLink: "https://github.com/dotkom/galactic-thunderdome-x",
           text: "Et nettside prosjekt for den nye online.ntnu.no siden.",
         },
-      
+
         {
           image: {
             src: "me",
