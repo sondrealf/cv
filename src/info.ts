@@ -42,7 +42,7 @@ const info: { en: langInfo; no: langInfo } = {
       },
       contact: {
         title: "Details",
-        adress: ["Jonsvannsveien 30", "7050, Trondheim"],
+        adress: ["Trondheim, Norway"],
         phone: "+47 454 54 820",
         links: [
           {
@@ -140,6 +140,18 @@ const info: { en: langInfo; no: langInfo } = {
                 },
               ],
             },
+            // I now work in Comono AS as a developer (fullstack) COMONO er it consulting bedrift for startups
+            {
+              title: "Comono AS",
+              location: "Trondheim",
+              positions: [
+                {
+                  timerange: "August 2021 - Current",
+                  description: "Developer",
+                  text: "I now work as a fullstack developer at Comono AS. Comono is an IT consulting company for startups.",
+                },
+              ]
+            }
           ],
         },
         {
@@ -177,6 +189,7 @@ const info: { en: langInfo; no: langInfo } = {
             },
           ],
         },
+        /*
         {
           title: "References",
           Icon: MdOutlinePeopleAlt,
@@ -195,6 +208,7 @@ const info: { en: langInfo; no: langInfo } = {
             },
           ],
         },
+        */
       ],
       projects: [
         {
@@ -258,7 +272,7 @@ const info: { en: langInfo; no: langInfo } = {
       },
       contact: {
         title: "Detaljer",
-        adress: ["Jonsvannsveien 30", "7050, Trondheim"],
+        adress: ["Trondheim, Norge"],
         phone: "+47 454 54 820",
         links: [
           {
@@ -356,6 +370,17 @@ const info: { en: langInfo; no: langInfo } = {
                 },
               ],
             },
+            {
+              title: "Comono AS",
+              location: "Oslo (Remote)",
+              positions: [
+                {
+                  timerange: "Oktober 2022 - Nå",
+                  description: "Fullstack utvikler",
+                  text: "Jeg jobber nå som en fullstack utvikler i Comono AS. Comono er et IT konsulteringsfirma for startups.",
+                },
+              ],
+            },
           ],
         },
         {
@@ -393,6 +418,7 @@ const info: { en: langInfo; no: langInfo } = {
             },
           ],
         },
+        /*
         {
           title: "Refferanse",
           Icon: MdOutlinePeopleAlt,
@@ -411,6 +437,7 @@ const info: { en: langInfo; no: langInfo } = {
             },
           ],
         },
+        */
       ],
       projects: [
         {
