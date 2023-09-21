@@ -16,8 +16,8 @@ import {
   SiGatsby,
   SiGit,
   SiHtml5,
-  SiJava,
   SiMysql,
+  SiRemix,
   SiNextdotjs,
   SiPython,
   SiReact,
@@ -25,7 +25,13 @@ import {
   SiTypescript,
   SiVercel,
   SiVisualstudiocode,
+  SiChakraui,
+  SiMongodb,
+  SiNodedotjs,
+  SiNestjs,
+  SiSanity,
 } from "react-icons/si"
+import { DiJava } from "react-icons/di"
 import { langInfo } from "../lib/types"
 import { BsLinkedin, BsGithub, BsGlobe } from "react-icons/bs"
 const info: { en: langInfo; no: langInfo } = {
@@ -38,7 +44,7 @@ const info: { en: langInfo; no: langInfo } = {
     info: {
       about: {
         title: "Profile",
-        text: "I am a student from Nittedal. I am now in the 2th year of the NTNU bachelor in Informatics. I am a very social person and like to collaborate on projects.",
+        text: "I am a student from Nittedal. I am now in the 3rd year of the NTNU bachelor in Informatics. I am a very social person and like to collaborate on projects.",
       },
       contact: {
         title: "Details",
@@ -74,30 +80,26 @@ const info: { en: langInfo; no: langInfo } = {
             SiCss3,
             SiGatsby,
             SiHtml5,
-            SiJava,
+            DiJava,
             SiNextdotjs,
             SiReact,
             SiTailwindcss,
             SiTypescript,
+            SiRemix,
+            SiChakraui,
           ],
         },
-        /*
         {
-          title: "Backend / UI less",
-          techs: [SiGraphql, SiJava, SiNodedotjs, SiPython],
+          title: "Backend",
+          techs: [SiNodedotjs, SiPython, SiNestjs],
         },
         {
           title: "Database",
-          techs: [SiFirebase, SiMongodb, SiMysql, SiPostgresql],
-        },
-        */
-        {
-          title: "Development eviroment",
-          techs: [SiGit, SiVisualstudiocode],
+          techs: [SiFirebase, SiMongodb, SiMysql, SiSanity],
         },
         {
           title: "Other",
-          techs: [SiFigma, SiVercel],
+          techs: [SiFigma, SiVercel, SiAmazonaws],
         },
       ],
     },
@@ -130,6 +132,17 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdWorkOutline,
           locations: [
             {
+              title: "Comono AS",
+              location: "Trondheim",
+              positions: [
+                {
+                  timerange: "August 2021 - Current",
+                  description: "Developer",
+                  text: "I now work as a fullstack developer at Comono AS. Comono is an IT consulting company for startups.",
+                },
+              ],
+            },
+            {
               title: "PostNord Stralfors AB",
               location: "Oslo",
               positions: [
@@ -140,18 +153,6 @@ const info: { en: langInfo; no: langInfo } = {
                 },
               ],
             },
-            // I now work in Comono AS as a developer (fullstack) COMONO er it consulting bedrift for startups
-            {
-              title: "Comono AS",
-              location: "Trondheim",
-              positions: [
-                {
-                  timerange: "August 2021 - Current",
-                  description: "Developer",
-                  text: "I now work as a fullstack developer at Comono AS. Comono is an IT consulting company for startups.",
-                },
-              ]
-            }
           ],
         },
         {
@@ -304,30 +305,26 @@ const info: { en: langInfo; no: langInfo } = {
             SiCss3,
             SiGatsby,
             SiHtml5,
-            SiJava,
+            DiJava,
             SiNextdotjs,
             SiReact,
             SiTailwindcss,
             SiTypescript,
+            SiRemix,
+            SiChakraui,
           ],
         },
-        /*
         {
-          title: "Backend / UI less",
-          techs: [SiGraphql, SiJava, SiNodedotjs, SiPython],
+          title: "Backend",
+          techs: [SiNodedotjs, SiPython, SiNestjs],
         },
         {
           title: "Database",
-          techs: [SiFirebase, SiMongodb, SiMysql, SiPostgresql],
-        },
-        */
-        {
-          title: "Development eviroment",
-          techs: [SiGit, SiVisualstudiocode],
+          techs: [SiFirebase, SiMongodb, SiMysql, SiSanity],
         },
         {
           title: "Other",
-          techs: [SiFigma, SiVercel],
+          techs: [SiFigma, SiVercel, SiAmazonaws],
         },
       ],
     },
@@ -360,17 +357,6 @@ const info: { en: langInfo; no: langInfo } = {
           Icon: MdWorkOutline,
           locations: [
             {
-              title: "PostNord Stralfors AB",
-              location: "Oslo",
-              positions: [
-                {
-                  timerange: "Desember 2020 - August 2021",
-                  description: "Maskinoperatør",
-                  text: "Jeg var en maskinopperatør på PostNord Stralfors AB. Jobben min var å vedlikeholde og fikse konfluteringsmaskiner.",
-                },
-              ],
-            },
-            {
               title: "Comono AS",
               location: "Oslo (Remote)",
               positions: [
@@ -378,6 +364,17 @@ const info: { en: langInfo; no: langInfo } = {
                   timerange: "Oktober 2022 - Nå",
                   description: "Fullstack utvikler",
                   text: "Jeg jobber nå som en fullstack utvikler i Comono AS. Comono er et IT konsulteringsfirma for startups.",
+                },
+              ],
+            },
+            {
+              title: "PostNord Stralfors AB",
+              location: "Oslo",
+              positions: [
+                {
+                  timerange: "Desember 2020 - August 2021",
+                  description: "Maskinoperatør",
+                  text: "Jeg var en maskinopperatør på PostNord Stralfors AB. Jobben min var å vedlikeholde og fikse konfluteringsmaskiner.",
                 },
               ],
             },
