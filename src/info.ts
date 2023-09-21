@@ -269,7 +269,7 @@ const info: { en: langInfo; no: langInfo } = {
     info: {
       about: {
         title: "Profil",
-        text: "Jeg er en student fra Nittedal. Jeg går nå 2. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
+        text: "Jeg er en student fra Nittedal. Jeg går nå 3. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
       },
       contact: {
         title: "Detaljer",
