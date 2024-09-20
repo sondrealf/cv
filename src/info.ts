@@ -30,6 +30,16 @@ import {
   SiNodedotjs,
   SiNestjs,
   SiSanity,
+  SiSvelte,
+  SiPostgresql,
+  SiSqlite,
+  SiZod,
+  SiOpenai,
+  SiVite,
+  SiFastapi,
+  SiGraphql,
+  SiMui,
+  SiStorybook,
 } from "react-icons/si"
 import { DiJava } from "react-icons/di"
 import { langInfo } from "../lib/types"
@@ -269,7 +279,7 @@ const info: { en: langInfo; no: langInfo } = {
     info: {
       about: {
         title: "Profil",
-        text: "Jeg er en student fra Nittedal. Jeg går nå 3. året på NTNU bachelor i Informatikk. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
+        text: "Jeg er en student fra Nittedal. Jeg går nå 4. året på NTNU mastier i Informatikk innen Software. Jeg er en veldig sosial person og liker godt å samarbeide på prosjekter.",
       },
       contact: {
         title: "Detaljer",
@@ -312,6 +322,10 @@ const info: { en: langInfo; no: langInfo } = {
             SiTypescript,
             SiRemix,
             SiChakraui,
+            SiSvelte,
+            SiPython,
+            SiVite,
+            SiMui,
           ],
         },
         {
@@ -320,22 +334,49 @@ const info: { en: langInfo; no: langInfo } = {
         },
         {
           title: "Database",
-          techs: [SiFirebase, SiMongodb, SiMysql, SiSanity],
+          techs: [
+            SiFirebase,
+            SiMongodb,
+            SiMysql,
+            SiSanity,
+            SiPostgresql,
+            SiSqlite,
+            SiFastapi,
+            SiGraphql,
+          ],
         },
         {
           title: "Other",
-          techs: [SiFigma, SiVercel, SiAmazonaws],
+          techs: [
+            SiFigma,
+            SiVercel,
+            SiAmazonaws,
+            SiZod,
+            SiOpenai,
+            SiDocker,
+            SiStorybook,
+          ],
         },
       ],
     },
     content: {
       education: [
         {
+          title: "Master i Software",
+          location: "Norges teknisk-naturvitenskapelige universitet",
+          positions: [
+            {
+              timerange: "August 2024 - Nå",
+              description: "Masterprogram, 2-årig, Trondheim",
+            },
+          ],
+        },
+        {
           title: "Bachelor i Informatikk",
           location: "Norges teknisk-naturvitenskapelige universitet",
           positions: [
             {
-              timerange: "August 2021 - Nå",
+              timerange: "August 2021 - Juni 2024",
               description: "Bachelorprogram, 3-årig, Trondheim",
             },
           ],
