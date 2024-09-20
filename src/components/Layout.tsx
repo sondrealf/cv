@@ -8,7 +8,7 @@ const Layout = ({ children, className }) => {
 
   return (
     <div className=" min-h-full w-full bg-white flex flex-col items-center">
-      <Langselector />
+      {/* <Langselector /> */}
       <div className=" min-h-full max-w-6xl bg-gray-50 shadow-xl">
         <main className={className} ref={el => (cvRef.current = el)}>
           {children}
